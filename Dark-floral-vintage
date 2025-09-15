@@ -127,7 +127,6 @@ footer h4 {
   position: absolute;
   top: -175px;
   left: 50%;
-  line-height: 1;
   transform: translateX(-50%);
   text-shadow: 1px 1px 1px #af4c0f;
 }
@@ -693,6 +692,7 @@ li.blurb blockquote p:first-child::before {
   color: #72330c !important;
   font-size: 2.7em !important;
   font-weight: bold !important;
+  line-height: 1;
   text-align: center !important;
   display: block !important;
   text-decoration: none;
