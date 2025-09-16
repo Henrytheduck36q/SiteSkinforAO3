@@ -50,7 +50,7 @@ body {
 #outer.wrapper {
   padding-top: 350px;
   background-color: #f0d6c0;
-  background-image: url("https://64.media.tumblr.com/47984d75518266110f17d176c0252385/4e5377aa37ed3b07-b3/s2048x3072/a005408ff7bbda05e1ba8a7a185efd163dffe0db.jpg"), url("https://64.media.tumblr.com/4a78d0e841c2891353749dd0394603d0/4e5377aa37ed3b07-91/s1280x1920/0ff0bcf02705fb0840b5b06108c576e1a4b62939.jpg");
+  background-image: url("https://64.media.tumblr.com/77b1bf205d2b79923f5f575376ecbcab/4e5377aa37ed3b07-db/s2048x3072/dfe7c7e30bb40cda19331bc2c44106758468ddb1.png"), url("https://64.media.tumblr.com/4a78d0e841c2891353749dd0394603d0/4e5377aa37ed3b07-91/s1280x1920/0ff0bcf02705fb0840b5b06108c576e1a4b62939.jpg");
   background-repeat: no-repeat, repeat;
   background-position: center 130px, center top;
   background-size: 560px, auto;
