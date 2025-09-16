@@ -788,3 +788,59 @@ div.primary.header.module {
   min-height: 105px !important;
   width: 100%;
 }
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.secondary form {
+  background: #fff;
+}
+
+.chapter,
+.download {
+  position: relative;
+}
+
+select {
+  vertical-align: text-top;
+  width: 100%;
+  min-width: 10em;
+}
+
+select#selected_id {
+  margin: 5px auto 0px auto;
+  line-height: 1;
+}
+
+.chapter .secondary,
+.download .secondary {
+  position: absolute;
+  top: 100%;
+  left: auto;
+  right: 0;
+  margin: 0;
+  z-index: 99;
+  background: #fff;
+  border: 2px solid #bbb;
+  padding: 0 0.375em;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #bbb;
+  border-radius: 5px !important;
+  width: max-content;
+  min-width: 150px;
+  max-width: 90vw;
+  overflow-wrap: break-word;
+}
+
+.chapter .secondary,
+.download .secondary {
+  width: auto;
+  max-width: 95vw;
+  left: auto;
+  right: -65px;
+}
