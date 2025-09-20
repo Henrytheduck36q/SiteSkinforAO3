@@ -1,0 +1,285 @@
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: #000;
+}
+
+#outer {
+  background: url("https://64.media.tumblr.com/d36355df561bd7c8adad309916faf5ec/57dc47654a4488b0-dd/s2048x3072/7a9688b39074ae6e6867dad90609613ef0408e7d.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+#inner {
+  background-image: url("https://64.media.tumblr.com/26b40af9bb928e21bc03a8c13d1a7cbe/57dc47654a4488b0-16/s640x960/b26f390bdf74dca0b17b839d5b5b875c77987011.png");
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: auto;
+  padding: 4% 4%;
+}
+
+body {
+  background: #000;
+}
+
+#footer ul.actions {
+  background: #000 url("https://64.media.tumblr.com/062dc539618eecd08a6abfb2ad32506b/57dc47654a4488b0-79/s1280x1920/0381a0493c74b694dc99e8fb90087b8b8c999381.png");
+  min-height: 150px;
+  margin: 0;
+  box-shadow: 1px 0 1px #000;
+}
+
+#footer ul {
+  border: 0;
+  clear: both;
+  margin: 0;
+  padding: 2% 2%;
+  float: left;
+  text-align: left;
+  width: 96%;
+}
+
+#footer .module {
+  max-width: 21%;
+  padding: 0 1%;
+}
+
+#main,
+#footer,
+li.blurb,
+.wrapper,
+.flash,
+.listbox,
+.listbox .index,
+.dashboard .listbox .index,
+.verbose legend {
+  background: #f6f4efeb;
+}
+
+#greeting {
+  background: url("https://64.media.tumblr.com/062dc539618eecd08a6abfb2ad32506b/57dc47654a4488b0-79/s1280x1920/0381a0493c74b694dc99e8fb90087b8b8c999381.png");
+  border: 1px solid #8c5668;
+}
+
+#greeting {
+  min-height: 2.2em;
+}
+
+#greeting img.icon {
+  height: 2em;
+  width: 2em;
+}
+
+ul.user.navigation.actions {
+  font-size: 1rem;
+}
+
+ul.user.navigation.actions {
+  font-size: 0.6rem;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  padding-bottom: 24%;
+  box-shadow: 1px 0 1px #000;
+  margin: 0;
+}
+
+#header ul.primary {
+  z-index: 9999;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.35);
+  text-align: right;
+  border-color: rgba(0,0,0,0.5);
+}
+
+#header ul.primary li.search {
+  flex: 1 1 auto;
+}
+
+#header ul.primary li.search input[type="text"] {
+  width: 60%;
+  font-size: 1.5vw;
+  box-sizing: border-box;
+}
+
+#header ul.primary li a {
+  font-size: 1.5vw;
+}
+
+#header #search .button {
+  font-size: 1.5vw;
+}
+
+#header .search {
+  float: right;
+  color: #2a2a2a;
+  margin-right: 0.2em;
+}
+
+#header #search .text {
+  margin: 0.43em 0.43em;
+}
+
+form.search input[type="text"] {
+  padding: 0.25em 0.25em;
+}
+
+#header h1 sup,
+#header .logo {
+  display: none;
+}
+
+h1.heading {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  width: 70%;
+  font-size: 2em;
+}
+
+#header .heading a {
+  line-height: 1;
+  font-size: 3.5vw;
+  max-font-size: 3rem;
+  color: #986476;
+  -webkit-text-stroke: 1.2px #8a606e;
+  font-weight: bold;
+  font-family: "Bradley Hand", "Chalkboard", "Comic Sans MS", "Pacifico", "Caveat", cursive !important;
+  background: #f7e62042;
+  box-shadow: 0 0px 0px #fffcf66e;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  text-decoration: underline;
+}
+
+#header .actions a,
+#header .current,
+#header #search .button,
+#header fieldset {
+  background: none;
+  color: rgba(255,255,255,0.75);
+  border: 0;
+  box-shadow: none;
+}
+
+#header .current {
+  background: rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 4px #000;
+}
+
+#header .user a,
+#header .user .current {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#header #search .button:focus {
+  color: rgba(255,255,255,0.75);
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: rgba(0,0,0,0.8);
+}
+
+#header .dropdown:hover .menu a {
+  background: transparent;
+}
+
+.actions a,
+.current,
+#inner #dashboard ul,
+#dashboard.own {
+  border-color: #beb5ac;
+}
+
+#main,
+li.blurb,
+.wrapper,
+.flash,
+.listbox {
+  box-shadow: 0 1px 2px;
+  outline: none;
+}
+
+#dashboard,
+#dashboard.own {
+  position: relative;
+  z-index: 9997;
+  background: #f8e0a4f2 !important;
+  color: #4c3c36 !important;
+  border: solid transparent;
+  border-width: 10px 5px 10px 5px;
+  border-radius: 10px;
+  border-image: url("https://64.media.tumblr.com/d3daa775ccfca98c0db45246d5f70d7e/57dc47654a4488b0-99/s1280x1920/1c4d6cdd1e31b9be76102bce05e93139742c276b.png") 5% round;
+}
+
+#dashboard a:hover,
+#dashboard .current {
+  background: #FFFEE7 !important;
+  color: #000;
+}
+
+.filters fieldset {
+  background: #f8e0a4f2 !important;
+  color: #4c3c36 !important;
+  border: solid transparent;
+  border-width: 10px 5px 10px 5px;
+  border-radius: 10px;
+  border-image: url("https://64.media.tumblr.com/d3daa775ccfca98c0db45246d5f70d7e/57dc47654a4488b0-99/s1280x1920/1c4d6cdd1e31b9be76102bce05e93139742c276b.png") 5% round;
+}
+
+.notice {
+  background: #9a636c;
+  border: 2px solid #7c0100;
+  color: #fff;
+}
+
+.notice a {
+  color: #f8e228 !important;
+}
+
+a#hide-first-login-help {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.action {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li.warnings a {
+  background: #b06e7b;
+  border-radius: 5px;
+  padding: 2px 5px !important;
+  color: #fdf9e9 !important;
+}
