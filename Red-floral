@@ -1,0 +1,846 @@
+#header,
+#inner.wrapper {
+  margin: 0% 3%;
+}
+
+#header h1 sup,
+#header .logo {
+  display: none;
+}
+
+#main,
+#inner,
+body,
+th,
+tr:hover,
+col.name,
+form blockquote.userstuff,
+fieldset fieldset,
+fieldset dl dl,
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete div.dropdown ul,
+#ui-datepicker-div,
+#ibox_wrapper,
+#ibox_content,
+.toggled form,
+.dynamic form,
+.secondary,
+.listbox .index,
+.dashboard .listbox .index,
+.nomination dt {
+  background: #fdf9e9;
+}
+
+#main,
+#main.dashboard {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+body {
+  font-family: "Baskerville", "Georgia", serif;
+}
+
+#footer {
+  background: #f0d6c0 url("https://64.media.tumblr.com/6022e0d791292691f5522ff2d481d6f3/09404f8dc566c832-13/s1280x1920/3e21cf5eabceebdf3c29606bef2ada5908230228.jpg") repeat;
+}
+
+#outer.wrapper {
+  padding-top: 350px;
+  background-color: #f0d6c0;
+  background-image: url("https://64.media.tumblr.com/77b1bf205d2b79923f5f575376ecbcab/4e5377aa37ed3b07-db/s2048x3072/dfe7c7e30bb40cda19331bc2c44106758468ddb1.png"), url("https://cdn.pixabay.com/photo/2017/06/03/07/51/mandala-2368146_1280.png"), url("https://cdn.pixabay.com/photo/2017/06/03/07/51/mandala-2368146_1280.png"), url("https://cdn.pixabay.com/photo/2017/06/03/07/51/mandala-2368146_1280.png"), url("https://cdn.pixabay.com/photo/2017/06/03/07/51/mandala-2368146_1280.png"), url("https://cdn.pixabay.com/photo/2017/06/03/07/51/mandala-2368146_1280.png"), 
+url("https://64.media.tumblr.com/6022e0d791292691f5522ff2d481d6f3/09404f8dc566c832-13/s1280x1920/3e21cf5eabceebdf3c29606bef2ada5908230228.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+  background-position: center 130px, 130px -10px, 950px 200px, -110px 1100px, 1380px 2100px, 5px 2600px, center top;
+  background-size: 560px, 220px, 600px, 340px, 70px, 400px, auto;
+}
+
+#footer {
+  float: none;
+  border: none;
+  display: flex;
+  align-items: stretch;
+}
+
+#footer .menu,
+#footer h4 {
+  flex: 1;
+  box-sizing: border-box !important;
+  color: #fff6eb !important;
+  background: #608191;
+  border: 2px solid #fff6eb;
+  padding: 4px 8px;
+}
+
+footer h4 {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+}
+
+#footer .menu {
+  font-style: italic;
+}
+
+#header {
+  background: #b84f38;
+  z-index: 9999;
+  font-family: "Baskerville", "Georgia", serif !important;
+  border-top: 2px solid #7c0100;
+  border-left: 2px solid #7c0100;
+  border-right: 2px solid #7c0100;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#inner.wrapper {
+  border-bottom: 2px solid #7c0100;
+  border-left: 2px solid #7c0100;
+  border-right: 2px solid #7c0100;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+#header .heading {
+  font-family: "Baskerville", "Georgia", serif !important;
+  height: 30px;
+  background: none;
+}
+
+#header .primary {
+  font-family: "Baskerville", "Georgia", serif !important;
+  background: #fdf9e9;
+  height: 40px;
+  box-shadow: none;
+  position: absolute;
+  top: -340px;
+  border-radius: 30px;
+  border: 2px dashed #7c0100;
+}
+
+.primary .icon img {
+  border: 2px solid #7c0100 !important;
+  border-radius: 10% !important;
+}
+
+#header h1 span {
+  position: absolute;
+  top: -175px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 1px 1px 1px #af4c0f;
+}
+
+#header #search .text {
+  font-family: "Baskerville", "Georgia", serif !important;
+  margin-top: 9px;
+  margin-left: -20%;
+  width: 80%;
+  border: 1px dotted #72330c;
+}
+
+#greeting .icon img {
+  box-shadow: none;
+  border-radius: 30%;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  border: 1.5px solid #72330c;
+}
+
+#greeting {
+  font-family: "Baskerville", "Georgia", serif !important;
+  background: none;
+  height: 40px;
+  float: left;
+}
+
+#greeting .menu {
+  left: 0;
+}
+
+#greeting li,
+#greeting li a {
+  color: #fff !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+  font-weight: bold !important;
+  margin-top: 5px;
+}
+
+#header .primary li a {
+  vertical-align: middle;
+  color: #000 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+  font-weight: bold !important;
+  margin-top: 5px;
+}
+
+.splash .module h3 {
+  border-bottom: 2px solid #7c0100;
+}
+
+.splash .news li {
+  border-bottom: 1px dashed #7c0100;
+}
+
+#header .dropdown .menu,
+#greeting .dropdown .menu {
+  border: 1px solid #7c0100;
+}
+
+#greeting .dropdown:hover a,
+#header .dropdown:hover a {
+  background: #f0d6c0 !important;
+  color: #000 !important;
+}
+
+#header .dropdown .menu,
+#greeting .dropdown .menu,
+#header .dropdown .menu a,
+#greeting .dropdown .menu a {
+  background: #f0d6c0 !important;
+  color: #000 !important;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+}
+
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+#greeting .dropdown .menu a:hover,
+#greeting .dropdown .menu a:focus {
+  background: #FFFEE7 !important;
+  color: #000 !important;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#dashboard,
+#dashboard.own {
+  position: relative;
+  z-index: 9997;
+  background: #e3bda8 !important;
+  color: #4c3c36 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+  border: solid transparent;
+  border-width: 10px 5px 10px 5px;
+  border-image: url("https://64.media.tumblr.com/9af7214393353efd2c2e5178235189c0/09404f8dc566c832-ba/s640x960/f6156701b13869eba627410928468d60983db924.jpg") 20% round;
+}
+
+#dashboard a:hover,
+#dashboard .current {
+  background: #FFFEE7 !important;
+  color: #000;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.statistics .index li:nth-of-type(even),
+.splash .favorite li:nth-of-type(odd) a {
+  background: #f0d6c0;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip,
+.listbox,
+fieldset fieldset.listbox,
+#header ul.primary .current {
+  border-image: url("https://64.media.tumblr.com/9af7214393353efd2c2e5178235189c0/09404f8dc566c832-ba/s640x960/f6156701b13869eba627410928468d60983db924.jpg") 10% round;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.listbox,
+fieldset {
+  border-width: 8px;
+}
+
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active {
+  border: 2px solid #7c0100;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+ul.notes,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.flash,
+.alert.flash,
+div.dynamic,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background: #f0d6c0;
+  border: 4px solid #7c0100;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#main .verbose legend {
+  background: #f7cda4;
+  border: 2px solid #7c0100;
+}
+
+.notice {
+  background: #b84f38;
+  border: 2px solid #7c0100;
+  color: #fff;
+}
+
+.notice a {
+  color: #f8e228 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+a#hide-first-login-help {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.action {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.flash {
+  border: none;
+}
+
+.splash .news .meta {
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+h2 {
+  font-size: 1.286em;
+  line-height: 1;
+  margin: 0.5375em 0;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.listbox,
+fieldset fieldset.listbox,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+form blockquote.userstuff,
+.secondary form {
+  background: #f0d6c0;
+  border-radius: 0px;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+select,
+.toggled form,
+.dynamic form,
+input,
+textarea,
+.listbox .index,
+#ibox_wrapper,
+#ibox_content {
+  background: #fdf9e9;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.thread .even {
+  background: #F1ECDF;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.filters .submit input {
+  background: #F1ECDF;
+  border: 1px solid #7c0100;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#feedback fieldset {
+  border-radius: 0px;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.filters fieldset {
+  border-radius: 0px;
+  border-width: 8px;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+button {
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.comment {
+  position: relative;
+  border: 2px double #7c0100;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.comment div.icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid #66402b;
+  border-radius: 8px;
+  border-bottom: 1.5px solid #66402b !important;
+  background: transparent;
+  overflow: hidden;
+  margin: 0;
+}
+
+.comment .icon {
+  position: absolute;
+  top: opx;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border-bottom: none !important;
+  background: url("https://archiveofourown.org/images/skins/iconsets/default/icon_user.png");
+  overflow: hidden;
+  margin: 0;
+}
+
+.comment div .icon img {
+  padding: opx;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.comment h4.byline {
+  background: #f0d6c0;
+  height: 70px;
+  padding-left: 65px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.comment blockquote .userstuff {
+  margin-top: 3em;
+}
+
+.comment h4.byline a[href*="/users/"] {
+  color: #7c0100;
+  font-weight: bold !important;
+  margin-right: 4px !important;
+  border: none;
+}
+
+.comment h4.byline a[href*="/works/"] {
+  color: #5b8ca4;
+  font-style: italic;
+  margin-left: 4px;
+  border: none;
+}
+
+#workskin .notes,
+dl.meta,
+.comment .posted,
+.comment .edited {
+  font-size: 80%;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+p.kudos {
+  font-size: 90%;
+  margin-top: 15px;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#workskin h2 {
+  font-size: 2.143em;
+  color: #7c0100;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#workskin {
+  text-align: justify;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.bookmark .user .userstuff {
+  line-height: 1.15;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+blockquote,
+pre {
+  font-family: "Times New Roman", serif !important;
+  font-style: italic;
+}
+
+li.blurb {
+  border-radius: 8px;
+  border: 4px solid transparent;
+  border-image: url("https://64.media.tumblr.com/0849a3a78370bb608bcf2659f2e8950d/7fa12c05ca858dab-b7/s100x200/dc6d6de59b7a362bf6c6b33f4c750bb0d331526a.png") 20% round;
+  box-shadow: 0 0 5px #000;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.blurb .module {
+  background: #F1ECDF;
+  border: 1px dashed #7c0100;
+  border-radius: 5px;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.relationships a {
+  background: #608191;
+  border-radius: 5px;
+  padding: 2px 5px !important;
+  color: #fdf9e9 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.warnings a {
+  background: #b85f53;
+  border-radius: 5px;
+  padding: 2px 5px !important;
+  color: #fdf9e9 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.characters a {
+  background: #808d56;
+  border-radius: 5px;
+  padding: 2px 5px !important;
+  color: #fdf9e9 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.reading h4.viewed {
+  font-size: 85%;
+  background-color: transparent;
+  padding: 2px 5px !important;
+  color: #608191 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left !important;
+  margin: 0;
+  padding: 2px;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "Warnings: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.characters + li.freeforms:before {
+  content: "Other tags: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #000;
+  font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Other tags: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Other tags: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+li.blurb blockquote p:first-child::before {
+  content: "About: ";
+  color: #000;
+  font-size: 90%;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.blurb ul.series::before {
+  content: "Series: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.blurb .fandoms::before {
+  content: "Fandom: ";
+  color: #000;
+  font-weight: bold;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.bookmark .user,
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #F1ECDF;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.bookmark .dynamic {
+  border: none;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.comment h4.byline {
+  position: relative;
+}
+
+.comment .posted {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin: 0;
+  font-style: italic !important;
+}
+
+.comment .posted .datetime {
+  height: 30px;
+  width: 50px;
+  font-family: "Baskerville", "Georgia", serif !important;
+  font-size: 90%;
+}
+
+#header h2 {
+  background-color: #756F62 !important;
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#header h1.heading a {
+  font-family: "Snell Roundhand", "Palatino", cursive;
+  color: #72330c !important;
+  font-size: 2.7em !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  line-height: 1;
+  display: block !important;
+  text-decoration: none;
+}
+
+body li.blurb {
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+#main li.blurb,
+#main ul.index li.blurb {
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+div.header.module {
+  min-height: 59px !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blurb ul.required-tags {
+  top: 0;
+  width: 53px;
+  height: 53px;
+  margin: 0px;
+  border: 2px solid #362c27;
+  border-radius: 10%;
+  background-color: #362c27;
+}
+
+.blurb ul.required-tags li span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.datetime {
+  font-family: "Baskerville", "Georgia", serif !important;
+  font-style: italic;
+}
+
+div.header.module,
+.header.module,
+#header .module {
+  position: relative !important;
+  box-sizing: border-box;
+}
+
+div.header.module p.datetime,
+.header.module p.datetime,
+#header .module p.datetime {
+  position: absolute !important;
+  right: 6px !important;
+  top: 5px !important;
+  margin: 0 !important;
+  z-index: 999 !important;
+  display: block !important;
+}
+
+.bookmark .count a {
+  border-bottom: none;
+  color: #4e6c85;
+}
+
+.bookmark .status span,
+.bookmark .status a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 5%;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.bookmark p.status {
+  position: absolute;
+  right: 16px;
+  top: 30px;
+  border-radius: 5%;
+  border: 2px solid #362c27;
+  background-color: #362c27;
+  margin: 0;
+  width: 53px;
+  z-index: 1;
+}
+
+div.primary.header.module {
+  min-height: 105px !important;
+  width: 100%;
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  font-family: "Baskerville", "Georgia", serif !important;
+}
+
+.secondary form {
+  background: #fff;
+}
+
+.chapter,
+.download {
+  position: relative;
+}
+
+select {
+  vertical-align: text-top;
+  width: 100%;
+  min-width: 10em;
+}
+
+select#selected_id {
+  margin: 5px auto 0px auto;
+  line-height: 1;
+}
+
+.chapter .secondary,
+.download .secondary {
+  position: absolute;
+  top: 100%;
+  left: auto;
+  right: 0;
+  margin: 0;
+  z-index: 99;
+  background: #fff;
+  border: 2px solid #bbb;
+  padding: 0 0.375em;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #bbb;
+  border-radius: 5px !important;
+  width: max-content;
+  min-width: 150px;
+  max-width: 90vw;
+  overflow-wrap: break-word;
+}
+
+.chapter .secondary,
+.download .secondary {
+  width: auto;
+  max-width: 95vw;
+  left: auto;
+  right: -65px;
+}
