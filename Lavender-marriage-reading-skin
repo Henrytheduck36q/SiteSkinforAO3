@@ -1,0 +1,413 @@
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: #000;
+}
+
+#outer {
+  background: url("https://64.media.tumblr.com/4f20c2cc77c55c002d34cbbb70103a49/54673b7713b2023c-6b/s2048x3072/44f1bfc8c9c52a9dca70ff0fbd80060996b90eaa.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+#inner {
+  background-image: url("https://64.media.tumblr.com/5d52c6a1c45b8558b38f34947596215e/ce367c78fa627249-d2/s1280x1920/9ad6e8169923316e2c716a3949881a65f890c5e6.png");
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: auto;
+  padding: 4.3% 4.3%;
+}
+
+body {
+  background: #000;
+}
+
+#footer ul.actions {
+  background: #000 url("https://64.media.tumblr.com/88ba2f920d14f67d183a3c8b57e4054c/54673b7713b2023c-25/s2048x3072/d342e9607b1d776b21f4215d9a8ef10702580090.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 220px;
+  margin: 0;
+  box-shadow: 1px 0 1px #000;
+}
+
+#footer ul {
+  border: 0;
+  clear: both;
+  margin: 0;
+  padding: 2% 2%;
+  float: left;
+  text-align: left;
+  width: 96%;
+}
+
+#footer .module {
+  max-width: 21%;
+  padding: 0 1%;
+}
+
+#main,
+#footer,
+li.blurb,
+.wrapper,
+.flash,
+.listbox,
+.listbox .index,
+.dashboard .listbox .index,
+.verbose legend {
+  background: #efeffae8;
+}
+
+#main {
+  border: 2px solid #6b6190d4;
+}
+
+.listbox,
+fieldset fieldset.listbox,
+fieldset {
+  background: #c7c2e5a8;
+  border: 2px solid #736c9e;
+}
+
+#greeting {
+  background: url("https://i.pinimg.com/736x/b1/3f/4d/b13f4d36b01b816c89088f024311b2ba.jpg");
+  background-size: cover;
+  border: 2px solid #8c5668;
+}
+
+#greeting {
+  min-height: 2.2em;
+  margin-right: 0;
+}
+
+#greeting img.icon {
+  height: 2em;
+  width: 2em;
+}
+
+ul.user.navigation.actions {
+  font-size: 1rem;
+}
+
+ul.user.navigation.actions {
+  font-size: 0.6rem;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30%;
+  box-shadow: 1px 0 1px #000;
+  margin: 0;
+}
+
+#header ul.primary {
+  z-index: 9999;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.35);
+  text-align: right;
+  border-color: rgba(0,0,0,0.5);
+}
+
+#header ul.primary li.search {
+  flex: 1 1 auto;
+}
+
+#header ul.primary li.search input[type="text"] {
+  width: 60%;
+  font-size: 1.5vw;
+  box-sizing: border-box;
+}
+
+#header ul.primary li a {
+  font-size: 1.5vw;
+}
+
+#header #search .button {
+  font-size: 1.5vw;
+}
+
+#header .search {
+  float: right;
+  color: #2a2a2a;
+  margin-right: 0.2em;
+}
+
+#header #search .text {
+  margin: 0.43em 0.43em;
+}
+
+form.search input[type="text"] {
+  padding: 0.25em 0.25em;
+}
+
+#header h1 sup,
+#header .logo {
+  display: none;
+}
+
+h1.heading {
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  width: 70%;
+  font-size: 2em;
+}
+
+#header .heading a {
+  line-height: 1;
+  font-size: 3.8vw;
+  max-font-size: 3rem;
+  color: #fffcf663;
+  -webkit-text-stroke: 1.2px #f2f2ff85;
+  font-weight: bold;
+  font-family: "Snell Roundhand", "Papyrus", "Zapfino", "Apple Chancery", "Party LET", "Herculanum", "Chalkduster", sans-serif !important;
+  background: none;
+  box-shadow: 0 0px 0px #fffcf66e;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+#header .actions a,
+#header .current,
+#header #search .button,
+#header fieldset {
+  background: none;
+  color: rgba(255,255,255,0.75);
+  border: 0;
+  box-shadow: none;
+}
+
+#header .current {
+  background: rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 4px #000;
+}
+
+#header .user a,
+#header .user .current {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#header #search .button:focus {
+  color: rgba(255,255,255,0.75);
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: rgba(0,0,0,0.8);
+}
+
+#header .dropdown:hover .menu a {
+  background: transparent;
+}
+
+.actions a,
+.current,
+#inner #dashboard ul,
+#dashboard.own {
+  border-color: #beb5ac;
+}
+
+#main,
+li.blurb,
+.wrapper,
+.flash,
+.listbox {
+  box-shadow: 0 1px 2px;
+  outline: none;
+}
+
+#dashboard,
+#dashboard.own {
+  position: relative;
+  z-index: 9997;
+  background: #c5bbe6de !important;
+  color: #4c3c36 !important;
+  border: solid transparent;
+  border-width: 5px 5px 5px 5px;
+  border-radius: 10px;
+  border-image: url("https://as1.ftcdn.net/v2/jpg/15/51/46/52/1000_F_1551465230_J1ZcOKOrafxwAbs3pCGNQgUlaR2MqlFu.jpg") 8% round;
+}
+
+#inner #dashboard ul {
+  border-color: #8362b0cc;
+}
+
+#dashboard ul {
+  border-top: 2px dashed #8362b0cc;
+}
+
+#dashboard a:hover,
+#dashboard .current {
+  background: #ebe9f5 !important;
+  color: #6633a4;
+}
+
+.filters fieldset {
+  background: #c5bbe6de !important;
+  color: #4c3c36 !important;
+  border: solid transparent;
+  border-width: 5px 5px 5px 5px;
+  border-radius: 10px;
+  border-image: url("https://as1.ftcdn.net/v2/jpg/15/51/46/52/1000_F_1551465230_J1ZcOKOrafxwAbs3pCGNQgUlaR2MqlFu.jpg") 10% round;
+}
+
+.notice {
+  background: #63639ade;
+  border: 2px solid #422f5a;
+  color: #fff;
+}
+
+.notice a {
+  color: #f8e228 !important;
+}
+
+a#hide-first-login-help {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.action {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li.warnings a {
+  background: #b06e7b;
+  border-radius: 5px;
+  padding: 0.05em 0.2em !important;
+  color: #fdf9e9 !important;
+}
+
+li.relationships a {
+  background: #4e6494;
+  border-radius: 5px;
+  padding: 0.05em 0.2em !important;
+  color: #fdf9e9 !important;
+}
+
+form.verbose legend,
+.verbose form legend {
+  font-size: 100%;
+  background: #3f393bf5;
+  border: 2px solid #736c9e;
+  color: #fff;
+}
+
+li.blurb {
+  padding: 0.8em 0.8em;
+  border: 11px solid transparent;
+  border-image: url("https://64.media.tumblr.com/fba4e1f89020aacaf25680d1e392ed5e/ce367c78fa627249-26/s1280x1920/cab26b3edf0dbc207af9659a79c6d98d7c54ceae.png") 20% repeat;
+}
+
+.bookmark .user {
+  background: #cec0e159;
+  border: 2px dotted #736c9e;
+  color: #60557a;
+}
+
+.blurb .header {
+  background: #d9ceeaab;
+  border-bottom: 2px dashed transparent;
+  padding: 0em 0em;
+}
+
+ul.tags.commas {
+  padding: 0.5em 0.3em;
+}
+
+.reading h4.viewed {
+  background: #cad9e7e3;
+  font-size: 95%;
+  font-family: "Chalkduster", fantasy !important;
+  padding: 0.5em;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #d2bfddeb;
+  opacity: 0.95;
+}
+
+.unread {
+  background: #d9ceeaab;
+}
+
+.icon {
+  border: 1.2px solid #000;
+  border-radius: 5px;
+}
+
+li.comment {
+  border: 2px dashed #3e466d;
+  padding: 0.3em;
+}
+
+.comment div.icon {
+  border-bottom: none;
+}
+
+.comment h4.byline {
+  background: #aaa0c69e;
+  line-height: 1.3;
+}
+
+.comment h4.byline a[href*="/users/"] {
+  color: #7c0100;
+  font-weight: bold !important;
+  margin-right: 4px !important;
+  border: none;
+}
+
+.thread .even {
+  background: #c2a9c657;
+  margin: 0;
+}
+
+dl.meta {
+  background: #dacce8cc;
+  border: 1px solid #9e90afb5;
+}
+
+.comment h4.byline a[href*="/works/"] {
+  color: #4a5d88;
+  font-style: italic;
+  margin-left: 4px;
+  border: none;
+}
+
+.statistics .index li:nth-of-type(even),
+.splash .favorite li:nth-of-type(odd) a {
+  background: #928ac057;
+}
