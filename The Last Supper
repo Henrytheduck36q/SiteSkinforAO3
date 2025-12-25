@@ -1,0 +1,448 @@
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: #000;
+}
+
+#outer {
+  background: url("https://i.pinimg.com/1200x/26/23/a6/2623a6fe68d3a28828d34971320c1b98.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+#inner {
+  background-image: url("https://i.pinimg.com/1200x/f6/76/31/f676312c121cbbecf1e318cf5da459ca.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+  padding: 4.3% 4.3%;
+}
+
+body {
+  background: #000;
+}
+
+#footer ul.actions {
+  background: #000 url("https://i.pinimg.com/1200x/2f/69/6c/2f696c2fe3519c75549a9ed6eb178814.jpg");
+  background-size: cover;
+  background-position: center 28%;
+  min-height: 200px;
+  margin: 0;
+  box-shadow: 1px 0 1px #000;
+}
+
+#footer ul {
+  border: 0;
+  clear: both;
+  margin: 0;
+  padding: 2% 2%;
+  float: left;
+  text-align: left;
+  width: 96%;
+  text-shadow: 0px 0px 10px rgba(0,0,0,1);
+  -webkit-text-stroke: 0.02em #fff9ee;
+}
+
+#footer .module {
+  max-width: 21%;
+  padding: 0 1%;
+}
+
+#main,
+#footer,
+li.blurb,
+.wrapper,
+.flash,
+.listbox,
+.listbox .index,
+.dashboard .listbox .index,
+.verbose legend {
+  background: #f6efe6e0;
+}
+
+#main {
+  border: 2px solid #5a4b39fa;
+}
+
+.listbox,
+fieldset fieldset.listbox,
+fieldset {
+  background: #f4dab4a8;
+  border: 2px solid #81644a87;
+}
+
+#greeting {
+  background: url("https://i.pinimg.com/1200x/83/54/a9/8354a9284925da5d30076ee59408622c.jpg");
+  background-size: cover;
+  border: 1px solid #342a22e6;
+}
+
+#greeting {
+  z-index: 9999;
+  max-height: 2em;
+  margin-right: 0;
+}
+
+#greeting img.icon {
+  height: 1.5em;
+  width: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+#greeting p.icon {
+  float: right;
+  height: auto;
+  padding: 0.2em 0.2em 0.2em;
+  line-height: 1;
+  width: auto;
+}
+
+ul.user.navigation.actions {
+  font-size: 1rem;
+}
+
+ul.user.navigation.actions {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  padding-bottom: 38%;
+  box-shadow: 1px 0 1px #000;
+  margin: 0;
+}
+
+#header ul.primary {
+  z-index: 9998;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.35);
+  text-align: center;
+  border-color: rgba(0,0,0,0.5);
+}
+
+#header ul.primary li.search {
+  flex: 1 1 auto;
+}
+
+#header ul.primary li.search input[type="text"] {
+  width: 60%;
+  font-size: 1.5vw;
+  box-sizing: border-box;
+}
+
+#header ul.primary li a {
+  font-size: 1.5vw;
+}
+
+#header #search .button {
+  font-size: 1.5vw;
+}
+
+#header .search {
+  float: right;
+  color: #2a2a2a;
+  margin-right: 0.2em;
+}
+
+#header #search .text {
+  margin: 0.43em 0.43em;
+}
+
+form.search input[type="text"] {
+  padding: 0.25em 0.25em;
+}
+
+#header h1 sup,
+#header .logo {
+  display: none;
+}
+
+h1.heading {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  font-size: 2em;
+  text-align: center;
+}
+
+#header .heading a {
+  line-height: 1;
+  font-size: 3.8vw;
+  max-font-size: 4rem;
+  color: #fffcf682;
+  -webkit-text-stroke: 1.2px #fdf9f3a1;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgb(255 255 255);
+  font-family: "Zapfino", "Papyrus", "Snell Roundhand", "Apple Chancery", "Savoye LET", serif !important;
+  background: none;
+  box-shadow: 0 0px 0px #fffcf66e;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+#header .actions a,
+#header .current,
+#header #search .button,
+#header fieldset {
+  background: none;
+  color: rgba(255,255,255,0.75);
+  border: 0;
+  box-shadow: none;
+}
+
+#header .current {
+  background: rgba(0,0,0,0.25);
+  box-shadow: inset 0 0 4px #000;
+}
+
+#header .user {
+  padding: 0.7em 0 0;
+  position: relative;
+  z-index: 20;
+}
+
+#header .user a,
+#header .user .current {
+  padding-bottom: 0em;
+  padding-top: 0em;
+}
+
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .current,
+#header #search .button:focus {
+  color: rgba(255,255,255,0.75);
+}
+
+#header .menu,
+#small_login,
+#header .dropdown:hover .current + .menu,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown:hover .menu a:hover,
+#header .dropdown .menu a:focus,
+.search span.tip {
+  background: rgba(27,26,25,0.87);
+}
+
+#header .dropdown:hover .menu a {
+  background: transparent;
+}
+
+#header .menu li {
+  border-bottom: 1px solid #9d8b73;
+}
+
+.actions a,
+.current,
+#inner #dashboard ul,
+#dashboard.own {
+  border-color: #beb5ac;
+}
+
+#main,
+li.blurb,
+.wrapper,
+.flash,
+.listbox {
+  box-shadow: 0 1px 2px;
+  outline: none;
+}
+
+#dashboard,
+#dashboard.own {
+  position: relative;
+  z-index: 9997;
+  background: #e9d2b0e0 !important;
+  color: #4c3c36 !important;
+  border: solid transparent;
+  border-width: 7px 7px 7px 7px;
+  border-radius: 10px;
+  border-image: url("https://i.pinimg.com/1200x/f2/48/78/f24878e120dcf5fb270179cc4114ff07.jpg") 10% repeat;
+}
+
+#inner #dashboard ul {
+  border-color: #a96363de;
+}
+
+#dashboard ul {
+  border-top: 2px dashed #a96363de;
+}
+
+#dashboard a:hover,
+#dashboard .current {
+  background: #a26666 !important;
+  color: #f5efe9;
+}
+
+.filters fieldset {
+  background: #e9d2b0e0 !important;
+  color: #4c3c36 !important;
+  border: solid transparent;
+  border-width: 7px 7px 7px 7px;
+  border-radius: 10px;
+  border-image: url("https://i.pinimg.com/1200x/f2/48/78/f24878e120dcf5fb270179cc4114ff07.jpg") 10% repeat;
+}
+
+.notice {
+  background: #9a6363de;
+  border: 2px solid #5a2f2f;
+  color: #fff;
+}
+
+.notice a {
+  color: #f8e228 !important;
+}
+
+a#hide-first-login-help {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.action {
+  color: #608191 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li.warnings a {
+  background: #b06e7b;
+  border-radius: 5px;
+  padding: 0.05em 0.2em !important;
+  color: #fdf9e9 !important;
+}
+
+li.relationships a {
+  background: #4e6494;
+  border-radius: 5px;
+  padding: 0.05em 0.2em !important;
+  color: #fdf9e9 !important;
+}
+
+form.verbose legend,
+.verbose form legend {
+  font-size: 100%;
+  background: #3f393bf5;
+  border: 2px solid #986d6d;
+  color: #fff;
+}
+
+li.blurb {
+  padding: 0.8em 0.8em;
+  border: 11px solid transparent;
+  border-image: url("https://64.media.tumblr.com/fba4e1f89020aacaf25680d1e392ed5e/ce367c78fa627249-26/s1280x1920/cab26b3edf0dbc207af9659a79c6d98d7c54ceae.png") 20% repeat;
+}
+
+.bookmark .user {
+  background: #f0d6a75e;
+  border: 2px dotted #986d6d;
+  color: #986d6d;
+}
+
+.blurb .header {
+  background: #e4c0b8ab;
+  border-bottom: 2px dashed transparent;
+  padding: 0em 0em;
+}
+
+ul.tags.commas {
+  padding: 0.5em 0.3em;
+}
+
+.reading h4.viewed {
+  background: #efd9918c;
+  font-size: 95%;
+  font-family: "Chalkduster", fantasy !important;
+  padding: 0.5em;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #d2bfddeb;
+  opacity: 0.95;
+}
+
+.unread {
+  background: #e4c0b8ab;
+}
+
+.icon {
+  border: 1.2px solid #000;
+  border-radius: 5px;
+}
+
+li.comment {
+  border: 2px dashed #734219e0;
+  padding: 0.3em;
+}
+
+.comment div.icon {
+  border-bottom: none;
+}
+
+.comment h4.byline {
+  background: #c6a0a09e;
+  line-height: 1.3;
+}
+
+.comment h4.byline a[href*="/users/"] {
+  color: #7c0100;
+  font-weight: bold !important;
+  margin-right: 4px !important;
+  border: none;
+}
+
+.thread .even {
+  background: #c2a9c657;
+  margin: 0;
+}
+
+dl.meta {
+  background: #b2b395ab;
+  border: 1px solid #5a5015b5;
+}
+
+.comment h4.byline a[href*="/works/"] {
+  color: #4a5d88;
+  font-style: italic;
+  margin-left: 4px;
+  border: none;
+}
+
+.statistics .index li:nth-of-type(even),
+.splash .favorite li:nth-of-type(odd) a {
+  background: #ba907d54;
+}
+
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.secondary form {
+  background: #a57e7e29;
+}
